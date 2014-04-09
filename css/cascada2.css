@@ -48,6 +48,88 @@
 	padding-left: 10px;
 }
 
+.seccion0{
+	position: relative;
+	top: 20px;
+}
+
+.seccion1{
+position: relative;
+top: 200px;
+
+}
+
+.seccion2{
+	position: relative;
+	top: 800px;
+}
+
+.seccion3{
+	position: relative;
+	top:1400px;
+}
+
+.seccion4{
+	position: relative;
+	top:2300px;
+}
+
+.cajatexto{
+	float: right;
+	top:500px;
+	max-width: 30%;
+}
+
+.img1a{
+	position: absolute;
+	z-index: -2;
+}
+
+.img1b{
+	position: absolute;
+	z-index: -1;
+}
+
+.img1c{
+	position: absolute;
+	z-index: 0;
+}
+
+.img1d{
+	position: absolute;
+	z-index: 1;
+}
+
+.img1e{
+	position: absolute;
+	z-index: 2;
+}
+
+.img1f{
+	position: absolute;
+	z-index: 3;
+}
+.img1g{
+	position: absolute;
+	z-index: 4;
+}
+
+.img1h{
+	position: absolute;
+	z-index: 5;
+}
+
+.img1i{
+	position: absolute;
+	z-index: 6;
+}
+
+.img1j{
+	position: absolute;
+	z-index: 7;
+}
+
+
 #cajaroja{
 width: 100%;
 background-color:rgba(141,44,12,0.9);
@@ -56,10 +138,12 @@ display: block;
 padding-top: 5%;
 
 
+
 }
 
 img{
 	width: 100%;
+	min-width: 300px;
 }
 
 p{
@@ -101,6 +185,31 @@ h4{
 	font-family: 'Roboto Slab', serif;
 	font-style: normal 400;
 	font-size: 15px;
+}
+
+body{
+	background-image: url(../img/black_paper.png);
+	background-repeat: repeat;
+	background-position: fixed;
+}
+
+#header{
+	background-color: rgba(255, 255, 255, 0.9);
+    height: 65px;
+	margin-left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+
+#header .interior-header {
+    margin: 0 auto;
+    position: relative;
+}
+
+#topmenu {
+    float: left;
+    margin-top: -6px;
 }
 
 
