@@ -137,8 +137,6 @@ margin: auto;
 display: block;
 padding-top: 5%;
 
-
-
 }
 
 img{
@@ -158,7 +156,7 @@ p{
 
 
 h1{
-	font-family:'Ovo', 'Roboto Slab', serif;
+	font-family:'Roboto Slab', serif;
 	font-style: normal;
 	font-size: 30px;
 	color: #FFFFFF;
@@ -211,5 +209,17 @@ body{
     float: left;
     margin-top: -6px;
 }
+
+#body1{
+	background-image: url(../img/paper.png);
+	background-repeat: repeat;
+	background-position: fixed;
+}	
+
+#body2{
+	background-image: url(../img/black_paper.png);
+	background-repeat: repeat;
+	background-position: fixed;
+}	
 
 
