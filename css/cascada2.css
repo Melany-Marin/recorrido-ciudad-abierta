@@ -55,37 +55,37 @@
 
 .seccion1{
 position: relative;
-top: 200px;
+top: 10px;
 
 }
 
 .seccion2{
 	position: relative;
-	top: 800px;
+	top: 1000px;
 }
 
 .seccion3{
 	position: relative;
-	top:1400px;
+	top:2000px;
 
 }
 
 .seccion4{
 	position: relative;
-	top:2300px;
+	top:3000px;
 
 }
 
 .seccion3b{
 width: 170%;
 	position: relative;
-	top:1400px;
+	top:2000px;
 }
 
 .seccion4b{
 	width: 160%;
 	position: relative;
-	top:2000px;
+	top:3000px;
 }
 
 
@@ -147,12 +147,14 @@ width: 170%;
 
 #cajaroja{
 width: 100%;
-background-color:rgba(141,44,12,0.9);
+height: 150px;
 margin: auto;
 display: block;
 padding-top: 5%;
+padding-bottom: 50px;
 
 }
+
 
 img{
 	width: 100%;
@@ -163,7 +165,7 @@ img{
 }
 
 p{
-	font-family:'Ovo','Roboto Slab', serif;
+	font-family:'Ovo','Roboto', serif;
 	font-style: normal 400;
 	font-size: 15px;
 	line-height: 20px;
@@ -174,31 +176,33 @@ p{
 
 
 h1{
-	font-family:'Roboto Slab', serif;
+	font-family:'Ovo', serif;
 	font-style: normal;
-	font-size: 30px;
-	color: #FFFFFF;
-	padding: 30px;
-	letter-spacing: 1px;
-	line-height: 35px;
+	font-size: 60px;
+	color: rgba(141,44,12,0.9);
+	letter-spacing: 3px;
+	line-height: 6px;
 	text-align: center;
 }
 
 h2{
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Ovo', serif;
 	font-size: 20px;
-	font-style: normal 400;
-	color: rgb(0,0,0);
+	font-style: normal; 
+	color: rgba(141,44,12,0.9);
+	text-align: center;
+	padding: 10px;
+	letter-spacing: 2px;
 }
 
 h3{
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
 	font-style: bold 700;
 	font-size: 18px;
 }
 
 h4{
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal 400;
 	font-size: 15px;
 }
@@ -210,22 +214,12 @@ body{
 }
 
 #header{
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(255, 255, 255, 0.1);
     height: 65px;
 	margin-left: 0;
     position: fixed;
     width: 100%;
     z-index: 500;
-}
-
-#header .interior-header {
-    margin: 0 auto;
-    position: relative;
-}
-
-#topmenu {
-    float: left;
-    margin-top: -6px;
 }
 
 #body1{
