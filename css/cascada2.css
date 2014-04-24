@@ -1,17 +1,13 @@
-#content{
-	margin-top: 50px;
-	margin-right: 5%;
-	margin-left: 5%;
-	margin-bottom: 30px;
+.content{
+	width: 950px;
+	margin: 0 auto;
+	position: relative;
 		
 }
 
 #contentnegro{
-	margin-top: 50px;
-	margin-right: 5%;
-	margin-left: 5%;
-	margin-bottom: 30px;
-	background-color: rgb(0,0,0);
+	width: 950px;
+	margin: 0 auto;
 }
 
 
@@ -71,20 +67,18 @@ top: 10px;
 
 .seccion4{
 	position: relative;
-	top:3000px;
+	top:2080px;
 
 }
 
 .seccion3b{
-width: 170%;
 	position: relative;
-	top:2000px;
+	top:2080px;
 }
 
 .seccion4b{
-	width: 160%;
 	position: relative;
-	top:3000px;
+	top:2090px;
 }
 
 .cajatextoseccion1{
@@ -103,16 +97,29 @@ width: 170%;
 
 .cajatextoseccion3{
 	position: relative;
-	top: 2080px;
+	top: 1600px;
 	width: 29%;
-	float: left;
+	float: none;
 }
 
 .cajatextoseccion4{
 	position: relative;
-	top: 3080px;
+	top: 2155px; 
 	width: 29%;
 	float: right;
+}
+
+.cajaseccioncentrada{
+	position: absolute;
+	margin: 0 auto;
+}
+
+.alturacajacentrada{
+	position: relative;
+	top:735px;
+	width: 70%;
+	z-index: 30;
+	margin: 0 auto;
 }
 
 .cajatexto{
@@ -171,15 +178,10 @@ width: 170%;
 }
 
 
-#cajaroja{
-width: 100%;
-height: 100px;
-margin: auto;
-display: block;
+.cajaroja{
+margin: 0 auto;
 padding-top: 5%;
 padding-bottom: 5%;
-position: relative;
-
 }
 
 .subh1{
@@ -196,16 +198,31 @@ position: relative;
 	line-height: 25px;
 }
 
-.links{
-	bottom: bottom;
+.citasblancas{
+	font-family: 'Ovo','Roboto', serif;
+	font-style: italic;
+	font-size: 15px;
+	line-height: 25px;
+	color:rgb(255,255,255);
 }
 
-p.letrasblancas{
-	font-color:rgb(255,255,255);
+.pblancas{
+	color:white;
 }
 
-h3.letrasblancast{
-	font-color:rgb(255,255,255);
+.letrasblancas{
+	color:#FFFFFF;
+}
+
+.posicionabajo{
+	position: absolute;
+	bottom: 0;
+	float: bottom;
+}
+.abajo{
+	padding: 20px;
+	width: 50%;
+	margin: 0 auto;
 }
 
 img{
@@ -292,4 +309,18 @@ footer{
 	background-position: fixed;
 }	
 
+/* Clearfix */
 
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
