@@ -1,4 +1,4 @@
-.content{
+.content{					/*contenedores*/
 	width: 950px;
 	margin: 0 auto;
 	position: relative;
@@ -11,7 +11,7 @@
 }
 
 
-.margenimg1{
+.margenimg1{			/*margenes*/
 
 	margin-right: 30%;
 	margin: 10px;
@@ -43,7 +43,7 @@
 	padding-left: 10px;
 }
 
-.seccion0{
+.seccion0{					/*secciones de imagen*/
 	position: relative;
 	top: 20px;
 }
@@ -87,7 +87,7 @@ top: 300px;
 	top:1890px;
 }
 
-.cajatextoseccion1{
+.cajatextoseccion1{			/*contenedores de texto*/
 	position: relative;
 	top: 370px;
 	width: 29%;
@@ -141,7 +141,7 @@ top: 300px;
 	max-width: 30%;
 }
 
-.img1a{
+.img1a{						/*imagenes posicion absolutas*/
 	position: absolute;
 	z-index: -2;
 }
@@ -198,7 +198,7 @@ padding-bottom: 5%;
 top:50px;
 }
 
-.subh1{
+.subh1{										/*estilos de textos*/
 	font-family: 'Ovo','Roboto', serif;
 	font-size: 32px;
 	font-color: rgb(0,0,0);
@@ -239,7 +239,7 @@ top:50px;
 	margin: 0 auto;
 }
 
-img{
+img{								/*datos generales*/
 	width: 100%;
 	min-width: 300px;
 	max-height: 600px;
@@ -308,7 +308,7 @@ footer{
 
 
 
-#header{
+#header{											/*div id*/
 	background-color: rgba(255, 255, 255, 0.1);
     height: 65px;
 	margin-left: 0;
